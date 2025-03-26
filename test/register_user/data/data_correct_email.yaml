@@ -1,0 +1,32 @@
+data1:
+  email: testzz@test.comzz
+  password: Pa2!word
+  test_name: email корректный
+data2:
+  email: TEST@TEST.COMzz
+  password: Pa2!word
+  test_name: email корректный UPPERCASE
+data3:
+  email: test.tet@test.comzz
+  password: Pa2!word
+  test_name: email с точкой в имени
+data4:
+  email: test@test.tet.comzz
+  password: Pa2!word
+  test_name: email с точкой в домене
+data5:
+  email: te-s+t_t@test.comzz
+  password: Pa2!word
+  test_name: email c допустимыми символами в имени
+data6:
+  email: test@te-st.comzz
+  password: Pa2!word
+  test_name: email с тире в домене
+data7:
+  email: 12test@test.comzz
+  password: Pa2!word
+  test_name: email с цифрами в имени
+data8:
+  email: test@test12.comzz
+  password: Pa2!word
+  test_name: email с цифрами в домене
